@@ -21,9 +21,9 @@ function App () {
       image.src = reader.result;
     }, false);
 
-    if (file) {
+    if (file) 
       reader.readAsDataURL(file);
-    }
+    
   }
   const getImageData = (img) => {
     let canvas = document.getElementsByTagName("canvas")[0],
