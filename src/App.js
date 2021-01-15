@@ -137,7 +137,7 @@ function App () {
         <div className='range'>
         </div>
         <div className='loading'>
-          <div></div>gh
+          <div></div>
           <div></div>
         </div>
         <div className="input">
