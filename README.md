@@ -4,3 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project uses a react functional component in which you can get the color palette of an image.
 You can choose one image from the left panel, or "upload" your own.
 Hooks are used to have state and a function to update state.
+
+[Live version](https://fdmoliveira.github.io/color-palette/)
