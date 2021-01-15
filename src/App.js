@@ -12,7 +12,7 @@ function App () {
     const file = event.target.files[0],
           reader = new FileReader(),
           image = document.querySelector(".img");
-    
+     
     setLoading(true);
     reader.addEventListener("load", function () {
       image.onload = function () {
