@@ -122,10 +122,10 @@ function App () {
     <div>
       <nav>
         <p> Try one of these images</p>
-        {
+        { 
           imgArr.map((src,i) => {
               return (
-                <div> 
+                <div>  
                     <img src={src} key={i} onClick={(event) => getImageData(event.target)} crossOrigin="anonymous"/>
                 </div>
               )
@@ -137,7 +137,7 @@ function App () {
         <div className='range'>
         </div>
         <div className='loading'>
-          <div></div>
+          <div></div>gh
           <div></div>
         </div>
         <div className="input">
