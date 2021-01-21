@@ -121,16 +121,20 @@ function App () {
   return (
     <div>
       <nav>
-        <p> Try one of these images</p>
-        { 
-          imgArr.map((src,i) => {
+        <div className="title">
+          <p> Try one of these images</p>
+        </div>
+        <div className="images">
+        {
+          imgArr.map((src) => {
               return (
-                <div>  
-                    <img src={src} key={i} onClick={(event) => getImageData(event.target)} crossOrigin="anonymous"/>
+                <div>
+                    <img src={src} onClick={(event) => getImageData(event.target)} crossOrigin="anonymous"/>
                 </div>
               )
           }) 
         }
+        </div>
       </nav>
       <div className={`main ${loading ? `loading` : ''} `}>
         <h1>Image color pallete</h1>
@@ -142,15 +146,15 @@ function App () {
         </div>
         <div className="input">
           <p>... or upload your own</p>
-          <img src="" className="img"/>
+          <img src="" class="img"/>
           <input type="file" id="file" accept="image/*" onChange={fromInput}/>
-          <label htmlFor="file">Choose a file</label>
-        </div> 
+          <label for="file">Choose a file</label>
+        </div>
         <canvas></canvas>
         <div>
           {
             colors.map((img, i) => {
-              return <div data-rgb={img[1]} key={i} style={{background : `rgb(${img[1]})`}}> </div>
+              return <div data-rgb={img[1]} style={{background : `rgb(${img[1]})`}}> </div>
             })
            }
         </div>
