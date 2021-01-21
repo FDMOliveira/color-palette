@@ -179,6 +179,9 @@ p {
 .title {
   text-align: center;
 }
+canvas {
+  margin-top: 30px;
+}
 @keyframes ripple {
   from {
     transform: scale(0);
