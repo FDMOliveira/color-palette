@@ -115,6 +115,7 @@ function App () {
           return -1
     });
     setcolors(newArr);
+    console.log(newArr);
     setLoading(false);
   }
   
