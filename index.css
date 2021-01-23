@@ -30,7 +30,7 @@ nav + div {
 }
 nav .images > * {
   position:relative;
-  max-width:150px;
+  max-width:100px;
   cursor: pointer;
   transform: scale(1);
   margin: 0 20px;
@@ -65,8 +65,8 @@ canvas + div > * {
   height:100vh;
   width:100vw;
   position: relative;
-  max-width: 20px;
-  max-height: 20px;
+  max-width: 25px;
+  max-height: 25px;
   margin: 0 10px;
   transition: all 0.4s ease;
   border-radius:100%;
@@ -212,8 +212,8 @@ canvas {
     justify-content: center;
   }
   nav .images > * {
-    max-height: 100%;
     margin: 10px 0;
+    max-width:150px;
   }
   .images {
     flex-direction: column;
