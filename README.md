@@ -1,4 +1,4 @@
-# color-palette
+# Color Palette
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This project uses a react functional component in which you can get the color palette from an image.
