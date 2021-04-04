@@ -8,7 +8,7 @@ function App () {
   
   let r, g, b, a, mostlyOpac = (70*255)/100, tolerance = 50, lastI = 0, compare = 0, count = 0, colorDiff = 0, basePx={}, colorDiffArr= [];
    
-  const fromInput = (event) => {
+  const fromInput = (event) => { 
     const file = event.target.files[0],
           reader = new FileReader(),
           image = document.querySelector(".img");
